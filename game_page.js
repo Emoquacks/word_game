@@ -61,7 +61,7 @@ function check()
     }
     if(question_turn == "player1")
     {
-        question_word = "player2";
+        question_turn = "player2";
         document.getElementById("player_question").innerHTML = "Question Turn : " + player2_name;
     }
     else
@@ -73,7 +73,7 @@ function check()
     if(answer_turn == "player1")
     {
         answer_turn = "player2";
-        document.getElementById("player_answer").innerHTML = "answer Turn : " + player2_name;
+        document.getElementById("player_answer").innerHTML = "Answer Turn : " + player2_name;
     }
     else
     {
